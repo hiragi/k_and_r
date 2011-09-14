@@ -58,7 +58,7 @@ int main(void)
 			case '-':
 				cal1 = stack_pop();
 				cal2 = stack_pop();
-				stack_push(cal2*cal1);
+				stack_push(cal2-cal1);
 				break;
 			case '*':
 				cal1 = stack_pop();
